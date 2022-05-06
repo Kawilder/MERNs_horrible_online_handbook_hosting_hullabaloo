@@ -1,2 +1,2 @@
-# MERN's horrible online handbook hosting hullabaloo "MHOHHH"
+# MERN's online handbook hosting hullabaloo
 
