@@ -1,10 +1,11 @@
 {
   "name": "googlebooks-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "This google book search is an application where users can search for books, login and add them to a saved list.",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
+    "start:prod": "cd server && npm start",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
@@ -19,5 +20,13 @@
     "@apollo/react-hooks": "^4.0.0",
     "apollo-boost": "^0.4.9",
     "apollo-server-express": "^2.15.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kawilder/MERNs_horrible_online_handbook_hosting_hullabaloo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kawilder/MERNs_horrible_online_handbook_hosting_hullabaloo/issues"
+  },
+  "homepage": "https://github.com/Kawilder/MERNs_horrible_online_handbook_hosting_hullabaloo#readme"
 }
